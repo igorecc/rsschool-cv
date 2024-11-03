@@ -17,7 +17,7 @@
 
 ### Professional profile
 
-• 10 year of experience in programming
+• 12 year of experience in programming
 • Experienced in creating testing procedures
 • Experienced in preparing high/low level design paper
 • Experienced in training new employees
@@ -40,10 +40,48 @@ Foreign Languages: English Upper-Intermediate(Free reading documentation, speaki
 
 ---
 
+### Code example
+
+**Description:** The goal of this exercise is to convert a string to a new string where each character in the new string is "(" if that character appears only once in the original string, or ")" if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.
+
+```
+function duplicateEncode(word) {
+        // ...
+        let result = "";
+        let noDuplicate = "(";
+        let duplicate = ")";
+        let arr = word.split("");
+        console.log(word);
+        let newWord = word.toLowerCase();
+        console.log(newWord);
+        let k = -1;
+        for (i = 0; i < newWord.length; i++) {
+          let count = 0;
+          while ((k = newWord.indexOf(newWord.charAt(i), k + 1)) >= 0) count++;
+          if (count > 1) {
+            result += duplicate;
+          } else {
+            result += noDuplicate;
+          }
+        }
+        return result;
+      }
+```
+
+---
+
 ### Education, training, certificates
 
 • Engineer-programmer (BSU, 2008-1013)
 • Software testing(Belhard,2011)
 • Javascript web application development (It-academy, 2021)
+
+---
+
+### Languages
+
+English - Upper-Intermediate
+Russian - Native
+Polish - Basic
 
 ---
