@@ -17,7 +17,7 @@
 
 ### Professional profile
 
-• 12 year of experience in programming
+• 13 year of experience in programming
 • Experienced in creating testing procedures
 • Experienced in preparing high/low level design paper
 • Experienced in training new employees
